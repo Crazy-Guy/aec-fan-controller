@@ -1,0 +1,13 @@
+[Unit]
+Description=AEC Electronics Fan - Initialiser
+After=multi-user.target
+
+[Service]
+Type=oneshot
+RemainAfterExit=yes
+User=pi
+WorkingDirectory=/home/pi/aec-fan-controller
+ExecStart=/home/pi/aec-fan-controller/aec-fan-controller-init.sh
+
+[Install]
+WantedBy=multi-user.target
