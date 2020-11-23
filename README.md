@@ -5,9 +5,9 @@
 
 ## Installation
 
-1) Clone this repository
+1) Clone this repository to the /home/pi directory
 ````bash
-git clone
+git clone https://github.com/Crazy-Guy/aec-fan-controller.git
 ````
 2) Run the installation script
 ````bash
