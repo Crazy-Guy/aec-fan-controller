@@ -5,7 +5,7 @@
 sudo cp *.service /etc/systemd/system
 
 # Enable the service
-sudo systemctl enable aec-fac-controller.service
+sudo systemctl enable aec-fan-controller.service
 
 # Reload
 sudo systemctl daemon-reload
