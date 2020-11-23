@@ -2,7 +2,7 @@
 
 This fan controller uses an LM75A to control a fan to cool a Raspberry Pi when it reaches a certain temperature. The LM75A is configured with a over temperature set point, and a lower return to normal temperature. The LM75A communicates with the Raspberry Pi on the I2C bus and its address is 0x4F.
 
-![image](fc1.jpg)
+![image](images/fc1.jpg)
 
 
 ## Installation
@@ -11,11 +11,11 @@ This fan controller uses an LM75A to control a fan to cool a Raspberry Pi when i
 
 The fan controller is supplied with a 40pin extension header:
 
-![image](fc-pack.jpg)
+![image](images/fc-pack.jpg)
 
 Fit the fan controller to the Raspberry Pi as shown:
 
-![image](fc-rpi.jpg)
+![image](images/fc-rpi.jpg)
 
 It is recommended that standoffs are used to support the fan controller PCB.
 
